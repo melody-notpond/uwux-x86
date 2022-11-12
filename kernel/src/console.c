@@ -190,7 +190,7 @@ console_printf_fallthrough_int: {
                     break;
             }
 
-            s = ++format;
+            s = format + 1;
             length = 0;
         } else length++;
     }

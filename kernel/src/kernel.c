@@ -16,7 +16,7 @@ static void done(void) {
 
 // The following will be our kernel's entry point.
 void _start(void) {
-    console_printf("hewo\nmagic number is %i\n", 69);
+    console_put_hexdump("uwu owo\nnya", 11);
 
     // We're done, just hang...
     done();
